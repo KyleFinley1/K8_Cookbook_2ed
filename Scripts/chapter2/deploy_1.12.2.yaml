@@ -1,0 +1,23 @@
+# deploy_1.12.2.yaml
+## \brief Demonstrates specifing an updated pod version.  The example updates and rollbacks pod version.
+## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+#
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      run: my-nginx
+  template:
+    metadata:
+      labels:
+        run: my-nginx
+    spec:
+      containers:
+      - name: my-nginx
+        image: nginx:1.12.2
+        ports:
+        - containerPort: 80

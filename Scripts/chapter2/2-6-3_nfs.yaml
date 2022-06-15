@@ -1,0 +1,22 @@
+# 2-6-3_nfs.yaml
+## \brief Configuration to mount an NFS server and share files in the same NFS volume.
+## You must create the nfs server before using!
+## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+#
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nfs
+spec:
+  containers:
+    -
+      name: nfs
+      image: ubuntu
+      volumeMounts:
+        - mountPath: "/data-mount"
+          name: nfs
+  volumes:
+    - name: nfs
+      nfs:
+      server: <the name of your nfs server>
+        path: "/"

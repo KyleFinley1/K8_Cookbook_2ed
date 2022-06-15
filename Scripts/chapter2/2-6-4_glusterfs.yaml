@@ -1,0 +1,29 @@
+# 2-6-4_glusterfs.yaml
+## \brief Configuration to mount an GlusterFS into your pod.  Creates a bridge between gfs1 and gfs2.
+## You must create the glusterfs server before using!
+## Try mount -t glusterfs <glusterfs-server>:/<volume name> <local mount point>
+## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+#
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu
+spec:
+  containers:
+    -
+      image: ubuntu
+      command:
+        - sleep
+        - "3600"
+      imagePullPolicy: IfNotPresent
+      name: ubuntu
+      volumeMounts:
+        -
+          mountPath: /data-mount
+          name: data
+  volumes:
+    -
+      name: data
+      glusterfs:
+        endpoints:  glusterfs-cluster
+        path: gvol
