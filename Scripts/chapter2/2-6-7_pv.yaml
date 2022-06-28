@@ -1,0 +1,18 @@
+## \file 2-6-7_pv.yaml
+## \brief Configures a pod to clone a git repository.
+## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl create -f 2-6-7_pv.yaml
+#
+apiVersion: "v1"
+kind: "PersistentVolume"
+metadata:
+  name: "pvnfs01"
+spec:
+  capacity:
+    storage: "3Gi"
+  accessModes:
+    - "ReadWriteOnce"
+  nfs:
+    path: "/"
+    server: "<your nfs server>"
+  persistentVolumeReclaimPolicy: "Recycle"
