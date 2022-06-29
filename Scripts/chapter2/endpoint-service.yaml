@@ -1,6 +1,7 @@
-# endpoint-service.yaml
+## \file endpoint-service.yaml
 ## \brief Commands to set an endpoint.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl create -f endpoint-service.yaml
 #
 apiVersion: v1
 kind: Service

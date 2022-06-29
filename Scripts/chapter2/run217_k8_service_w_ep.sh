@@ -1,6 +1,6 @@
 #!/bin/bash
 ## \file run217_k8_service_w_ep.sh
-## \brief Go create the Service and the endpoint
+## \brief Go create the Kubernetes service and the endpoint.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #
 kubectl create -f endpoint-service.yaml && kubectl create -f k8s-endpoint.yaml
