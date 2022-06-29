@@ -1,5 +1,5 @@
-i#!/bin/bash
-# run202_k8_1st_pod.sh
+#!/bin/bash
+## \file run202_k8_1st_pod.sh
 ## \brief Start first Kubernetes pod requires one to create my-first-pod yaml file!
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

@@ -1,5 +1,5 @@
 #!/bin/bash
-# run226_k8_pod_w_gfs-endpoint.sh
+## \file run226_k8_pod_w_gfs-endpoint.sh
 ## \brief Similar to NFS, Creates Glusterfs pod as a bridge between two gfs servers.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

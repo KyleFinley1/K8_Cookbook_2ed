@@ -1,5 +1,5 @@
 #!/bin/bash
-# run225_k8_pod_w_nfs.sh
+## \file run225_k8_pod_w_nfs.sh
 ## \brief Pod finds a service via environment variables or DNS lookup.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

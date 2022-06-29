@@ -1,5 +1,5 @@
 #!/bin/bash
-# run209_record_deployment.sh
+## \file run209_record_deployment.sh
 ## \brief Use record and rollout to demostrate pod backup and restore after updated Kubernetes deployments go awry.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

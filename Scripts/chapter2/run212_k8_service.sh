@@ -1,5 +1,5 @@
 #!/bin/bash
-# run212_k8_service.sh
+## \file run212_k8_service.sh
 ## \brief Command creates first Kubernetes service.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #
@@ -8,7 +8,7 @@ kubectl expose pod nginx-pod --port=8080 --target-port=80 --name="nginx-service"
 
 kubectl describe svc nginx-service
 
-echo 'Acess service like so.'
+echo 'Acess service like so!'
 kubectl get svc | grep nginx-service | awk '{ gsub(/\/TCP/, "", $5); print "curl " $3 ":" $5; }'
 
 echo 'Acess service like so.  Your IP will be different!'
