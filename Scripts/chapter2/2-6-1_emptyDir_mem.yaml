@@ -1,7 +1,7 @@
-# 2-6-1_emptyDir_mem.yaml
+## \file 2-6-1_emptyDir_mem.yaml
 ## \brief Cretes a pod with a persistent volume or  empty directory mounted as tmpfs by setting emptyDir.medium as Memory.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
-# kubectl create -f 2-6-1_emptyDir._mem.yaml
+## \test kubectl create -f 2-6-1_emptyDir._mem.yaml
 #
 apiVersion: v1
 kind: Pod

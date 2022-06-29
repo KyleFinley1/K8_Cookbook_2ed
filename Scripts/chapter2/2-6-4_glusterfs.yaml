@@ -1,8 +1,9 @@
-# 2-6-4_glusterfs.yaml
+## \file 2-6-4_glusterfs.yaml
 ## \brief Configuration to mount an GlusterFS into your pod.  Creates a bridge between gfs1 and gfs2.
 ## You must create the glusterfs server before using!
 ## Try mount -t glusterfs <glusterfs-server>:/<volume name> <local mount point>
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl create -f 2-6-4_glusterfs.yaml
 #
 apiVersion: v1
 kind: Pod

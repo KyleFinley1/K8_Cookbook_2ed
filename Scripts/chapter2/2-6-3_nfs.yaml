@@ -1,7 +1,8 @@
-# 2-6-3_nfs.yaml
+## \file 2-6-3_nfs.yaml
 ## \brief Configuration to mount an NFS server and share files in the same NFS volume.
 ## You must create the nfs server before using!
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl create -f 2-6-3_nfs.yaml
 #
 apiVersion: v1
 kind: Pod

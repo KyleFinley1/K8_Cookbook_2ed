@@ -1,7 +1,7 @@
-# 2-6-1_emptyDir.yaml
+## \file 2-6-1_emptyDir.yaml
 ## \brief Cretes a pod with a persistent volume or  empty directory.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
-# kubectl create -f 2-6-1_emptyDir.yaml
+## \test kubectl create -f 2-6-1_emptyDir.yaml
 #
 apiVersion: v1
 kind: Pod
