@@ -1,5 +1,5 @@
 #!/bin/bash
-## \file run204_k8_1st_replicaset.sh
+# run204_k8_1st_replicaset.sh
 ## \brief First replica set requires one to create my-first-replicaset yaml file!
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

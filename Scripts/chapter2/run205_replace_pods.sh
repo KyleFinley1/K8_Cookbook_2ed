@@ -1,5 +1,5 @@
 #!/bin/bash
-## \file run205_replace_pods.sh
+# run205_replace_pods.sh
 ## \brief Demonstrates replica sets replace pods.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

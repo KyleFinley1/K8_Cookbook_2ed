@@ -1,5 +1,5 @@
 #!/bin/bash
-## \file run207_k8_1st_deployment.sh
+# run207_k8_1st_deployment.sh
 ## \brief Create first Kubernetes deployment.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

@@ -1,5 +1,5 @@
 #!/bin/bash
-## \file run224_k8_pod_w_hostpath.sh
+# run224_k8_pod_w_hostpath.sh
 ## \brief Mounts the local folder on a node listed in hostpath e.g. /tmp/data.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #
