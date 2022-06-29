@@ -1,5 +1,5 @@
 #!/bin/bash
-# run222_k8_pod_w_vol.sh
+## \file run222_k8_pod_w_vol.sh
 ## \brief Pod finds a service via environment variables or DNS lookup.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

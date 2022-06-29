@@ -1,5 +1,5 @@
 #!/bin/bash
-# run212_k8_service_w_ep.sh
+## \file run212_k8_service_w_ep.sh
 ## \brief Command creates Kubernetes service with endpoint.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #

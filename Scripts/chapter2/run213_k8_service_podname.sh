@@ -1,5 +1,5 @@
 #!/bin/bash
-# run213_k8_service_podname.sh
+## \file run213_k8_service_podname.sh
 ## \brief Command creates first Kubernetes service.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
 #
