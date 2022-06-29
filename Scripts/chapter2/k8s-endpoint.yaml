@@ -1,6 +1,8 @@
-# k8s-endpoint.yaml
+## \file k8s-endpoint.yaml
 ## \brief Commands to set an endpoint.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl expose -f k8s-endpoint.yaml
+## \test kubectl create -f endpoint-service.yaml && kubectl create -f k8s-endpoint.yaml
 #
 apiVersion: v1
 kind: Endpoints

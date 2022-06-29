@@ -1,6 +1,7 @@
-# deploy.yaml
+## \file deploy.yaml
 ## \brief Commands to start a standalone pod that is deleted with the group.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl create -f deploy.yaml --save-config --record
 #
 apiVersion: apps/v1
 kind: Deployment

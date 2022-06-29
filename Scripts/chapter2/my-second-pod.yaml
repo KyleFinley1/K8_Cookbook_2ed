@@ -1,6 +1,8 @@
-# my-second-pod.yaml
+## \file my-second-pod.yaml
 ## \brief Commands to start second Kubernetes pod.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl kubectl create -f my-second-pod.yaml
+## \test kubectl exec  my-second-pod -it -c my-centos -- /bin/bash
 #
 apiVersion: v1
 kind: Pod

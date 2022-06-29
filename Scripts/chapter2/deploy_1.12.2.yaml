@@ -1,6 +1,7 @@
-# deploy_1.12.2.yaml
+## \file deploy_1.12.2.yaml
 ## \brief Demonstrates specifing an updated pod version.  The example updates and rollbacks pod version.
 ## \see Saito, Hideto, HuiChuan Chloe Lee, Ke-Jou Csrol Hsu. Kubernetes Cookbook Second Edition. Birmingham, UK, Packt Publishing, 2018.
+## \test kubectl apply -f deploy_1.12.2.yaml --record
 #
 apiVersion: apps/v1
 kind: Deployment
